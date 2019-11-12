@@ -3,6 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="200dp"
+    android:gravity="center"
     android:background="@color/toolbar_color"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
@@ -11,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Expense Manager"
         android:gravity="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="@color/colorPrimaryDark"
         />
 
